@@ -1,0 +1,125 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #535c68;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+   
+    width: 800px;
+    height: 500px;
+    display: flex;
+    background-color: white;
+
+}
+
+.box{
+
+    width: 380px;
+    background-image: url("assets/BMI.jpg");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.data{
+
+    flex: 1;
+    padding: 20px; 
+    background-color: rgb(216, 130, 238);
+       border-bottom-left-radius: 90px;
+ 
+
+}
+
+h1{
+
+    text-align: center;
+    color: crimson;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.inp-container{
+    margin-bottom: 15px;
+}
+
+label{
+
+    display: block;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+input{
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 0.5px solid black;
+
+}
+
+button{
+
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius: 20px 10px 10x black;
+    box-shadow: 5px 5px black;
+}
+
+.result{
+
+    margin-top: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.result p {
+
+    margin: 10px 0;
+    color: #555;
+    color: green;
+
+}
+
+.result p:first-child{
+
+    color: blueviolet;
+}
+
+.error{
+
+    color: red;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+
+.clearbtn{
+
+    background-color: red;
+    margin-left: 10px;
+    box-shadow: 5px 5px  black;
+}
+
